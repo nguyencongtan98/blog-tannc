@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/blog-tannc/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/blog-tannc/static/js/main.a77e4790.chunk.js",
+    "main.js.map": "/blog-tannc/static/js/main.a77e4790.chunk.js.map",
+    "runtime-main.js": "/blog-tannc/static/js/runtime-main.6a54f863.js",
+    "runtime-main.js.map": "/blog-tannc/static/js/runtime-main.6a54f863.js.map",
+    "static/js/2.86c23e58.chunk.js": "/blog-tannc/static/js/2.86c23e58.chunk.js",
+    "static/js/2.86c23e58.chunk.js.map": "/blog-tannc/static/js/2.86c23e58.chunk.js.map",
+    "index.html": "/blog-tannc/index.html",
+    "precache-manifest.9b20e36be01b276fba70263f1cd8f0b2.js": "/blog-tannc/precache-manifest.9b20e36be01b276fba70263f1cd8f0b2.js",
+    "service-worker.js": "/blog-tannc/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/blog-tannc/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.86c23e58.chunk.js.LICENSE.txt": "/blog-tannc/static/js/2.86c23e58.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a54f863.js",
+    "static/js/2.86c23e58.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.a77e4790.chunk.js"
+  ]
+}
