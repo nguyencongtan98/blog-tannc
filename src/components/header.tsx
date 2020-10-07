@@ -2,71 +2,46 @@ import React from "react";
 
 export const Header = () => {
   return (
-    <header className="header-section">
-      <div className="header-warp">
-        <div className="header-social d-flex justify-content-end">
-          <p>Follow us:</p>
-          <a href="#">
-            <i className="fa fa-pinterest"></i>
+    <div className="container">
+      <div className="row align-items-center">
+        <div className="col-12 col-lg-6 d-flex">
+          <a href="index.html" className="site-logo">
+            Meranda
           </a>
-          <a href="#">
-            <i className="fa fa-facebook"></i>
-          </a>
-          <a href="#">
-            <i className="fa fa-twitter"></i>
-          </a>
-          <a href="#">
-            <i className="fa fa-dribbble"></i>
-          </a>
-          <a href="#">
-            <i className="fa fa-behance"></i>
+          <a
+            href="#"
+            className="ml-auto d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"
+          >
+            <span className="icon-menu h3" />
           </a>
         </div>
-        <div className="header-bar-warp d-flex">
-          <a href="home.html" className="site-logo">
-            <img src="./img/logo.png" alt="" />
-          </a>
-          <nav className="top-nav-area w-100">
-            <div className="user-panel">
-              <a href="">Login</a> / <a href="">Register</a>
+        <div className="col-12 col-lg-6 ml-auto d-flex">
+          <div className="ml-md-auto top-social d-none d-lg-inline-block">
+            <a href="#" className="d-inline-block p-3">
+              <span className="icon-facebook" />
+            </a>
+            <a href="#" className="d-inline-block p-3">
+              <span className="icon-twitter" />
+            </a>
+            <a href="#" className="d-inline-block p-3">
+              <span className="icon-instagram" />
+            </a>
+          </div>
+          <form action="#" className="search-form d-inline-block">
+            <div className="d-flex">
+              <input
+                type="email"
+                className="form-control"
+                placeholder="Search..."
+              />
+              <button type="submit" className="btn btn-secondary">
+                <span className="icon-search" />
+              </button>
             </div>
-            {/* <!-- Menu --> */}
-            <ul className="main-menu primary-menu">
-              <li>
-                <a href="home.html">Home</a>
-              </li>
-              <li>
-                <a href="games.html">Study</a>
-                <ul className="sub-menu">
-                  <li>
-                    <a href="game-single.html">ReactJS</a>
-                  </li>
-                  <li>
-                    <a href="game-single.html">Java Core</a>
-                  </li>
-                  <li>
-                    <a href="game-single.html">HTML CSS</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="games.html">Source code Demo</a>
-                <ul className="sub-menu">
-                  <li>
-                    <a href="game-single.html">ReactJS</a>
-                  </li>
-                  <li>
-                    <a href="game-single.html">Java Core</a>
-                  </li>
-                  <li>
-                    <a href="game-single.html">HTML CSS</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </nav>
+          </form>
         </div>
+        <div className="col-6 d-block d-lg-none text-right"></div>
       </div>
-    </header>
+    </div>
   );
 };

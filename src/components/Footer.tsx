@@ -2,55 +2,24 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <footer className="footer-section">
+    <div className="footer">
       <div className="container">
-        <div className="footer-left-pic">
-          <img src="img/footer-left-pic.png" alt="" />
-        </div>
-        <div className="footer-right-pic">
-          <img src="img/footer-right-pic.png" alt="" />
-        </div>
-        <a href="#" className="footer-logo">
-          <img src="./img/logo.png" alt="" />
-        </a>
-        <ul className="main-menu footer-menu">
-          <li>
-            <a href="">Home</a>
-          </li>
-          <li>
-            <a href="">Games</a>
-          </li>
-          <li>
-            <a href="">Reviews</a>
-          </li>
-          <li>
-            <a href="">News</a>
-          </li>
-          <li>
-            <a href="">Contact</a>
-          </li>
-        </ul>
-        <div className="footer-social d-flex justify-content-center">
-          <a href="#">
-            <i className="fa fa-pinterest"></i>
-          </a>
-          <a href="#">
-            <i className="fa fa-facebook"></i>
-          </a>
-          <a href="#">
-            <i className="fa fa-twitter"></i>
-          </a>
-          <a href="#">
-            <i className="fa fa-dribbble"></i>
-          </a>
-          <a href="#">
-            <i className="fa fa-behance"></i>
-          </a>
-        </div>
-        <div className="copyright">
-          <a href="">Colorlib</a> 2018 @ All rights reserved
+        <div className="row">
+          <div className="col-12">
+            <div className="copyright">
+              <p>
+                {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
+                Copyright © All rights reserved | This template is made with{" "}
+                <i className="icon-heart text-danger" aria-hidden="true" /> by{" "}
+                <a href="https://colorlib.com" target="_blank">
+                  Colorlib
+                </a>
+                {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
