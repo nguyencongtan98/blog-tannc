@@ -6,7 +6,7 @@ export const Header = () => {
       <div className="row align-items-center">
         <div className="col-12 col-lg-6 d-flex">
           <a href="index.html" className="site-logo">
-            Meranda
+            BLOG
           </a>
           <a
             href="#"

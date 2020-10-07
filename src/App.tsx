@@ -1,11 +1,11 @@
 import React from "react";
-import { Header } from "./components/header";
 import { Menu } from "./components/Menu";
 import { SlideShow } from "./components/SlideShow";
 import { Content1 } from "./components/Content1";
 import { Content2 } from "./components/Content2";
 import { Content3 } from "./Content3";
 import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
 
 function App() {
   return (
