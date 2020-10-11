@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Profile } from "./components/Profile";
+import { Profile } from "./state/profile/Profile";
 import { Home } from "./components/Home";
 
 function App() {
