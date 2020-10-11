@@ -64,6 +64,22 @@ export const Profile = () => {
                       <h4 className="col-5 card-title">NAME</h4>
                       <div className="col-7 card-text">fdfdfdf</div>
                     </div>
+                    <div className="col-6">
+                      <h4 className="col-5 card-title">NAME</h4>
+                      <div className="col-7 card-text">fdfdfdf</div>
+                    </div>
+                    <div className="col-6">
+                      <h4 className="col-5 card-title">NAME</h4>
+                      <div className="col-7 card-text">fdfdfdf</div>
+                    </div>
+                    <div className="col-6">
+                      <h4 className="col-5 card-title">NAME</h4>
+                      <div className="col-7 card-text">fdfdfdf</div>
+                    </div>
+                    <div className="col-6">
+                      <h4 className="col-5 card-title">NAME</h4>
+                      <div className="col-7 card-text">fdfdfdf</div>
+                    </div>
                     I'M WEB DESIGN
                   </div>
                 </div>
