@@ -16,7 +16,7 @@ export const Content3 = () => {
           </h2>
           <div className="post-meta">
             <span className="d-block">
-              <a href="#">Dave Rogers</a> in <a href="#">News</a>
+              <a href="gfg">Dave Rogers</a> in <a href="gfg">News</a>
             </span>
             <span className="date-read">
               Jun 14 <span className="mx-1">•</span> 3 min read{" "}
@@ -35,7 +35,7 @@ export const Content3 = () => {
           </h2>
           <div className="post-meta">
             <span className="d-block">
-              <a href="#">Dave Rogers</a> in <a href="#">News</a>
+              <a href="gfg">Dave Rogers</a> in <a href="gfg">News</a>
             </span>
             <span className="date-read">
               Jun 14 <span className="mx-1">•</span> 3 min read{" "}
@@ -54,7 +54,7 @@ export const Content3 = () => {
           </h2>
           <div className="post-meta">
             <span className="d-block">
-              <a href="#">Dave Rogers</a> in <a href="#">News</a>
+              <a href="gfg">Dave Rogers</a> in <a href="gfg">News</a>
             </span>
             <span className="date-read">
               Jun 14 <span className="mx-1">•</span> 3 min read{" "}
@@ -73,7 +73,7 @@ export const Content3 = () => {
           </h2>
           <div className="post-meta">
             <span className="d-block">
-              <a href="#">Dave Rogers</a> in <a href="#">News</a>
+              <a href="gfg">Dave Rogers</a> in <a href="gfg">News</a>
             </span>
             <span className="date-read">
               Jun 14 <span className="mx-1">•</span> 3 min read{" "}
@@ -83,7 +83,7 @@ export const Content3 = () => {
         </div>
       </div>
       <p>
-        <a href="#" className="more">
+        <a href="gfg" className="more">
           See All Popular <span className="icon-keyboard_arrow_right" />
         </a>
       </p>

@@ -28,7 +28,7 @@ export const SlideShow = () => {
                 </p>
                 <div className="post-meta">
                   <span className="d-block">
-                    <a href="#">Dave Rogers</a> in <a href="#">Food</a>
+                    <a href="gfg">Dave Rogers</a> in <a href="fgf">Food</a>
                   </span>
                   <span className="date-read">
                     Jun 14 <span className="mx-1">•</span> 3 min read{" "}
@@ -63,7 +63,7 @@ export const SlideShow = () => {
                 </p>
                 <div className="post-meta">
                   <span className="d-block">
-                    <a href="#">Dave Rogers</a> in <a href="#">Food</a>
+                    <a href="gh">Dave Rogers</a> in <a href="hgh">Food</a>
                   </span>
                   <span className="date-read">
                     Jun 14 <span className="mx-1">•</span> 3 min read{" "}

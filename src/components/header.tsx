@@ -6,10 +6,10 @@ export const Header = () => {
       <div className="row align-items-center">
         <div className="col-12 col-lg-6 d-flex">
           <a href="index.html" className="site-logo">
-            BLOG
+            BLOG TANNC
           </a>
           <a
-            href="#"
+            href="gfg"
             className="ml-auto d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"
           >
             <span className="icon-menu h3" />
@@ -17,17 +17,17 @@ export const Header = () => {
         </div>
         <div className="col-12 col-lg-6 ml-auto d-flex">
           <div className="ml-md-auto top-social d-none d-lg-inline-block">
-            <a href="#" className="d-inline-block p-3">
+            <a href="gfg" className="d-inline-block p-3">
               <span className="icon-facebook" />
             </a>
-            <a href="#" className="d-inline-block p-3">
+            <a href="gfg" className="d-inline-block p-3">
               <span className="icon-twitter" />
             </a>
-            <a href="#" className="d-inline-block p-3">
+            <a href="gfg" className="d-inline-block p-3">
               <span className="icon-instagram" />
             </a>
           </div>
-          <form action="#" className="search-form d-inline-block">
+          <form action="gfg" className="search-form d-inline-block">
             <div className="d-flex">
               <input
                 type="email"
